@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Usa esta app para generar tus ideas de emprendimiento.">
+    <meta name="author" content="Ali González">
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Generador de Ideas</title>
+
+    <script type="text/javascript" src="js/raphael.min.js"></script>
+    <script type="text/javascript" src="js/raphael.icons.min.js"></script>
+    <script type="text/javascript" src="js/wheelnav.min.js"></script>
+    <script type="text/javascript" src="js/alter.js">
+    </script>
+
+
+  </head>
+  <body>
+    <header>
+      <div class="divtitle">
+        <h2 class="title">Genera una combinación.</h2>
+      </div>
+      <div id="randomButton" role="button">Dame una idea</div>
+    </header>
+    <main>
+
+      <div class="row">
+        <div class="container col-4">
+            <p class="tag">Solución</p>
+            <p id="svgtag" class="btn centered">Explora las soluciones con un click</p>
+          <div id="wheelDiv1" class="wheelDiv"></div>
+        </div>
+
+        <div class="container col-4">
+          <p class="tag">Acción</p>
+          <p id="svgtag2" class="btn centered">Explora las acciones con un click</p>
+          <div id="wheelDiv2" class="wheelDiv"></div>
+        </div>
+
+        <div class="container col-4">
+          <p class="tag">Problema</p>
+          <p id="svgtag3" class="btn centered">Explora los problemas con un click</p>
+          <div id="wheelDiv3" class="wheelDiv"></div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
