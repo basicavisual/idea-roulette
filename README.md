@@ -13,4 +13,4 @@ Change the roulette settings on js/main.js
 Used [wheelnav.js](http://wheelnavjs.softwaretailoring.net/) by [softwaretailoring](https://github.com/softwaretailoring) repo [here](https://github.com/softwaretailoring/wheelnav).
 
 
-You can find an applied example at https://rueda-emprendedora.herokuapp.com
+You can find an applied example at https://edc-ideador.com
